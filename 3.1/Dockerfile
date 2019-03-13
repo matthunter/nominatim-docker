@@ -15,6 +15,7 @@ RUN apt-get -y update -qq && \
     postgresql-server-dev-9.5 postgresql-9.5-postgis-2.2 postgresql-contrib-9.5 \
     apache2 php php-pgsql libapache2-mod-php php-pear php-db \
     php-intl git curl sudo \
+    python-gdal unzip \
     python-pip libboost-python-dev \
     osmosis && \
     apt-get clean && \
